@@ -1,0 +1,196 @@
+/* Optional CSS for additional styling */
+/* Adjust styles as needed */
+body {
+    padding-top: 70px; /* Adjust according to the navbar height */
+}
+.container_Form {
+    padding: 80px 80px;
+}
+/* Custom CSS for navbar */
+.custom-navbar {
+    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    background-color: #1a1b31;
+    background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+}
+.photo img {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 524px){
+            /* Optional CSS for additional styling */
+/* Adjust styles as needed */
+body {
+    padding-top: 70px; /* Adjust according to the navbar height */
+}
+.container_Form {
+    padding: 80px 0;
+}
+/* Custom CSS for navbar */
+.custom-navbar {
+    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    background-color: #1a1b31;
+    background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+}
+.photo img {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+}
+  
+a {
+    text-decoration: none;
+}
+
+}
+.buttonDownload {
+    display: inline-block;
+    position: relative;
+    padding: 10px 25px;
+    background-color: #4CC713;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: center;
+    text-indent: 15px;
+    border: none;
+   }
+   
+   .buttonDownload:hover {
+    background-color: #45a21a;
+    color: white;
+   }
+   
+   .buttonDownload:before, .buttonDownload:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 52%;
+   }
+   
+   .buttonDownload:before {
+    width: 10px;
+    height: 2px;
+    border-style: solid;
+    border-width: 0 2px 2px;
+   }
+   
+   .buttonDownload:after {
+    width: 0;
+    height: 0;
+    margin-left: 3px;
+    margin-top: -7px;
+    border-style: solid;
+    border-width: 4px 4px 0 4px;
+    border-color: transparent;
+    border-top-color: inherit;
+    animation: downloadArrow 1s linear infinite;
+    animation-play-state: paused;
+   }
+   
+   .buttonDownload:hover:before {
+    border-color: #cdefbd;
+   }
+   
+   .buttonDownload:hover:after {
+    border-top-color: #cdefbd;
+    animation-play-state: running;
+   }
+   
+   @keyframes downloadArrow {
+    0% {
+     margin-top: -7px;
+     opacity: 1;
+    }
+   
+    0.001% {
+     margin-top: -15px;
+     opacity: 0.4;
+    }
+   
+    50% {
+     opacity: 1;
+    }
+   
+    100% {
+     margin-top: 0;
+     opacity: 0.4;
+    }
+   }
+    /* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+    /* Hide the table headers and cells */
+    th, td {
+        display: none;
+    }
+
+    /* Display the table as a block */
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS devices */
+    }
+
+    /* Display table row as a block */
+    tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Display table data as a block */
+    td {
+        display: block;
+        text-align: left;
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    /* Add content and styling to the data */
+    td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+}
+.photo1 img{
+	width: 35px;
+	height: 35px;
+
+	box-shadow: 0px 0px 10px #777;
+	border-radius: 50%;
+	
+}
