@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 @section('title')
-Create Category
+Create Ista
     @endsection
     <meta charset="UTF-8">
     <meta niveau_form="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,18 @@ Create Category
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <style>     
+ .photo1 img{
+	width: 35px;
+	height: 35px;
+
+	box-shadow: 0px 0px 10px #777;
+	border-radius: 50%;
+	
+}
+                    </style>
     <style>
         /* Optional CSS for additional styling */
         /* Adjust styles as needed */

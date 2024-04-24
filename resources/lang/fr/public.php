@@ -10,6 +10,10 @@ return [
     'Se connecter'=>'Se connecter',
     'Se déconnecter'=>'Se déconnecter',
     'Formateur'=>'Formateur',
+    'Ajouter activité'=>'Ajouter activité',
+    'Galerie'=>'Galerie',
+
+
 
     // for tables
     'Nom' => 'Nom',
@@ -31,9 +35,9 @@ return [
     'Mode Formation'=>'Mode Formation',
     'Année Formation'=>'Année Formation',
     'Group'=>'Group',
-    'Type Formation'=>'Type Formation'
+    'Type Formation'=>'Type Formation',
 
-
-
+    'Pour approfondir votre compréhension de cette option, nous vous invitons à cliquer sur le lien ci-dessous pour accéder à plus de détails'=>'Pour approfondir votre compréhension de cette option, nous vous invitons à cliquer sur le lien ci-dessous pour accéder à plus de détails',
+    'Inscription en ligne'=>'Inscription en ligne',
 ];
 

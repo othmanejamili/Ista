@@ -41,15 +41,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('Accueil') }}">@lang('public.Accueil')</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ url('upload-cv') }}">@lang('public.diplômés') </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ url('') }}">@lang('public.emploi du temp')  </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ url('') }}">@lang('public.activité') </a>
-            </li>
+
             @guest
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('logi') }}">@lang('public.Se connecter')</a>
@@ -64,7 +56,16 @@
                 <a class="nav-link" href="{{ url('Formateur') }}"> @lang('public.Formateur')</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('ista') }}"> ista</a>
+                <a class="nav-link" href="{{ url('activity') }}">@lang('public.activité') </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('gallery') }}">@lang("public.Galerie") </a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('upload') }}">@lang("public.Ajouter activité") </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('ista') }}"> Ista</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('download') }}">@lang('public.diplômés')</a>
@@ -75,6 +76,12 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('istas') }}"> ista</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('upload-cv') }}">@lang('public.diplômés') </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('activity') }}">@lang('public.activité') </a>
             </li>
             @endif
             </ul>

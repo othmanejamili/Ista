@@ -11,7 +11,8 @@ return [
     'Se connecter'=>'Login',
     'Se déconnecter'=>'logout',
     'Formateur'=>'Trainers',
-
+    'Ajouter activité'=>'Add activity',
+    'Galerie'=>'Gallery',
     // for tables
     'Nom' => 'Name ',
     'Prenom' => 'Family Name',
@@ -31,7 +32,9 @@ return [
         'Mode Formation'=>'Training Mode',
         'Année Formation'=>'Year Training',
         'Group'=>'Group',
-        'Type Formation'=>'Type Training'
+        'Type Formation'=>'Type Training',
 
+        'Pour approfondir votre compréhension de cette option, nous vous invitons à cliquer sur le lien ci-dessous pour accéder à plus de détails'=>'To deepen your understanding of this option, we invite you to click on the link below to access more details',
+        'Inscription en ligne'=>'Online registration',
 ];
 

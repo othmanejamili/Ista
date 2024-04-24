@@ -6,12 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class create_absence extends Model
 {
+    protected $table = 'create_absence'; // Specify the table name
+
     protected $fillable = [     
-        'Nom',
-        'Prenom',
-        'CodeDiplome',
-        'date_absence',
-        'heur_absence',
+        'file_name',
+        'file_path',
+
     ];
   /**
      * Create a new create_absence instance.

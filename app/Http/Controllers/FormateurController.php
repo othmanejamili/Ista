@@ -9,23 +9,26 @@ class FormateurController extends Controller
 {
     public function store(Request $request)
     {
-            // Validate the incoming request
-    $request->validate([
-        'filier' => 'required|max:25|string', // Ensure that the 'filier' field is required
-        'formateur' => 'required|max:25|string', // Allow 'formateur' to be nullable or empty
-        'model' => 'required|max:25|string',
-        'ista' => 'required|max:25|string',
-
-    ]);
+        // Validate the incoming request
+        $request->validate([
+            'filier' => 'required|max:25|string',
+            'formateur' => 'required|max:25|string',
+            'model' => 'required|max:25|string',
+            'ista' => 'required|max:25|string',
+        ]);
+    
+        // Create a new Formateur instance
         $formateur = new Formateur();
         $formateur->filier = $request->filier;
         $formateur->formateur = $request->formateur;
         $formateur->model = $request->model;
         $formateur->ista = $request->ista;
-        $formateur->save(); // Removed unnecessary argument
-
+        $formateur->save();
+    
+        // Redirect back with success message
         return redirect()->route('formateur.create')->with('success', 'Formateur created successfully');
     }
+    
 
     public function create()
     {

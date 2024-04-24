@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 @section('title')
-Create Category
+Create formateur
     @endsection
     <meta charset="UTF-8">
     <meta filier="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +27,7 @@ Create Category
         /* Custom CSS for navbar */
         .custom-navbar {
             box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
-            background-formateur: #1a1b31;
+            background: #1a1b31;
             background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
         }
         .photo img{
@@ -73,6 +73,16 @@ Create Category
                     margin: 10px 10px;
                     width: 95%;
                 }
+    </style>
+    <style>
+          .photo1 img{
+	width: 35px;
+	height: 35px;
+
+	box-shadow: 0px 0px 10px #777;
+	border-radius: 50%;
+	
+}
     </style>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -131,7 +141,7 @@ Create Category
                             @enderror
                             </div>
                         <div class="form-group">
-                            <input type="submit" class="btn btn-success" value="Submit" />
+                        <input type="submit" class="btn btn-success" value="Submit" />
                         </div>
                     </form>
             </div>

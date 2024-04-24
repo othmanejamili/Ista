@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 @section('title')
-Edit voitures
+Edit formateur
     @endsection
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,6 +49,16 @@ Edit voitures
             width: 100%;
         }
     </style>
+    <style>
+         .photo1 img{
+	width: 35px;
+	height: 35px;
+
+	box-shadow: 0px 0px 10px #777;
+	border-radius: 50%;
+	
+}
+    </style>
 </head>
 <body>
  <!-- Navbar -->
@@ -56,7 +66,6 @@ Edit voitures
 
 <div class="container_Form">
     <div class="container">
-        <h2>Edit voitures</h2>
         @if(session("success"))
             <div class="alert alert-success">{{session("success")}}</div>
         @endif

@@ -15,11 +15,7 @@ class CreateCreateAbsenceTable extends Migration
     {
         Schema::create('create_absence', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('Nom');
-            $table->string('Prenom');
-            $table->string('CodeDiplome');
-            $table->string('date_absences');
-            $table->string('heur_absence');
+
             $table->timestamps();
         });
     }

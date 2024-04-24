@@ -458,3 +458,81 @@ select.tm-select::-ms-expand { display: none; }
 		  
 		  }
 	  }
+	  .c14whb16[class][class] {
+		  contain: var(--contentscroller_contain);
+		  display: grid;
+		  grid-auto-flow: column;
+		  grid-auto-columns: var(--contentscroller_auto-columns, calc( ( 100% - var(--contentscroller_gap, 16px) * (var(--contentscroller_visible-items, unset) - 1)) / var(--contentscroller_visible-items, unset)));
+		  gap: var(--contentscroller_gap, 16px);
+		  grid-template-rows: var(--contentscroller_rows, none);
+		  grid-template-areas: var(--contentscroller_areas, none);
+		  justify-content: flex-start;
+		  min-height: var(--contentscroller_min-height);
+		  height: var(--contentscroller_height);
+		  overflow: var(--contentscroller_overflow, auto hidden);
+		  overscroll-behavior-inline: contain;
+		  -webkit-padding-before: var(--contentscroller_padding-block-start, unset);
+		  padding-block-start: var(--contentscroller_padding-block-start, unset);
+		  -webkit-padding-after: var(--contentscroller_padding-block-end, unset);
+		  padding-block-end: var(--contentscroller_padding-block-end, unset);
+		  -webkit-scroll-padding-inline: var(--contentscroller_peek, 32px);
+		  -moz-scroll-padding-inline: var(--contentscroller_peek, 32px);
+		  -ms-scroll-padding-inline: var(--contentscroller_peek, 32px);
+		  scroll-padding-inline: var(--contentscroller_peek, 32px);
+		  -webkit-scrollbar-width: none;
+		  -moz-scrollbar-width: none;
+		  -ms-scrollbar-width: none;
+		  scrollbar-width: none;
+	  }
+	  
+	  .w17rkehr[class][class] {
+		  --chipsbar_height: 74px;
+		  --chipsbar_chip-spacing: 29px;
+		  --contentscroller_auto-columns: max-content;
+		  padding: 20px;
+	  }
+	  
+	  *,
+	  *:before,
+	  *:after {
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+		  flex: 0 1 auto;
+	  }
+	  
+	  .c14whb16[class][class]::-webkit-scrollbar {
+		  display: none;
+	  }
+	  
+	  .c14whb16[class][class]::-webkit-scrollbar {
+		  display: none;
+	  }
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-container img {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+
+	  .place{
+		  width: 100%;
+
+	  }
+	@media only screen and (max-width: 764px){
+	  .place{
+		  width: 140%;
+
+	  }
+	}
+  

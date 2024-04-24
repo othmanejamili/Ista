@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" type="image/png" href="{{ URL('images/ofppt.png') }}">
     <link rel="stylesheet" href="{{ asset('css/download.css') }}">
-
-
-
 </head>
 <body>
     <!-- Navbar -->

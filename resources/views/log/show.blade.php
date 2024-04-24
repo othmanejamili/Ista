@@ -18,11 +18,11 @@
                     /* For mobile phones: */
                     /* Optional CSS for additional styling */
                     /* Adjust styles as needed */
-                    body {
-                        padding-top: 70px; /* Adjust according to the navbar height */
-                    }
+
                     .container_Form{
                         padding:70px 70px;
+                        padding-top:70px ;
+
                     }
                     /* Custom CSS for navbar */
                     .custom-navbar {

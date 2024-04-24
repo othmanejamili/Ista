@@ -92,12 +92,23 @@ use App\Http\Controllers\LocalizationController;
 
 Route::get('locale/{locale}', [LocalizationController::class, 'setLang'])->name('setLang');
 
-use App\Http\Controllers\AbsenceController;
 
-Route::get('/absences/calendar', [AbsenceController::class, 'show'])->name('absences.show');
-Route::get('/absences/{CodeDiplome}', [AbsenceController::class, 'find'])->name('absences.find');
-Route::get('/fetch-absence', [AbsenceController::class, 'fetchAbsence'])->name('fetch.absence');
-    Route::get('Formateur/create', [FormateurController::class, 'create'])->name('formateur.create');
-    Route::post('Formateur', [FormateurController::class, 'store'])->name('formateur.store');
-Route::get('absences/{id}/edit', [AbsenceController::class, 'edit'])->name('absences.edit');
-Route::put('absences/{id}/edit', [AbsenceController::class, 'update']);
+
+
+// for schudele
+// routes/web.php
+Route::get('/upload', 'ImageController@showUploadForm')->name('upload.show');
+Route::post('/upload', 'ImageController@store')->name('upload.store');
+Route::get('/gallery', 'ImageController@showGallery')->name('activity.gallery');
+Route::get('/activity', 'ImageController@showU')->name('actevity.show');
+Route::get('/edit/{id}', 'ImageController@edit')->name('activity.edit');
+Route::put('/update/{id}', 'ImageController@update')->name('activity.update');
+Route::delete('/delete/{id}', 'ImageController@destroy')->name('image.destroy');
+
+
+
+
+
+
+
+
